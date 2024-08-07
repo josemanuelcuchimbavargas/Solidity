@@ -1,0 +1,16 @@
+** FUNCIONES GLOBALES.
+
+1)  block.blockhash(blockNumber): Devuelve el hash de un bloque dado
+2)  block.coinbase:               Devuelve la dirección del minero que esta procesando el bloque actual
+3)  block.difficulty:             Devuelve la dificultad del bloque actual
+4)  block.gaslimit:               Devuelve el limite de gas del bloque actual
+5)  block.number:                 Devuelve el numero del bloque actual
+6)  block.timestamp:              Devuelve el timestamp del bloque actual en segundos
+7)  msg.data:                     Datos enviados en la transacción
+8)  msg.gas:                      Devuelve el gas que queda
+9)  msg.sender:                   Devuelve el remitente de la llamada actual
+10) msg.sig:                      Devuelve los cuatro primeros bytes de los datos enviados en la transacción
+11) msg.value:                    Devuelve el numero de Wei enviado con la llamada
+12) now:                          Devuelve el timestamp del bloque actual
+13) tx.gasprice:                  Devuelve el precio del gas de la transacción
+14) tx.origin:                    Devuelve el emisor original de la transacción
