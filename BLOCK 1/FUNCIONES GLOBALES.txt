@@ -14,3 +14,28 @@
 12) now:                          Devuelve el timestamp del bloque actual
 13) tx.gasprice:                  Devuelve el precio del gas de la transacción
 14) tx.origin:                    Devuelve el emisor original de la transacción
+
+** FUNCION KECCAK256
+
+keccak256(<value>);
+
+Función criptografica que realiza el computo de hash de los argumentos que se pasen como parametro basado en sha 256.
+
+No podemos usar esta función con variables que es de cadena de texto, numero o dirección.
+
+Ella espera que se le pasen datos de tipo byte para ello se convierte los datos asi:
+
+---------------------------------CODIGO--------------------------------------------
+-----------------------------------------------------------------------------------
+
+// Para poder usar la función abi
+pragma experimental ABIEncoderV2;
+
+contract <name_contract> {
+    ...
+    keccak256(abi.encodePacked(<value>));
+    ...
+}
+
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BLOCK 1/variables_enteras.sol": "Enteros"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BLOCK 1/variables_enteras.sol": {
+			"keccak256": "0x57f450d4fcc35cd9b462520d1251e463028ca1e564199c52476ff7fb9b38fc1f",
+			"license": "JMCV",
+			"urls": [
+				"bzz-raw://3788a84360737dae8499c7ee7189484ca4d499859d638929298c342815b24ddd",
+				"dweb:/ipfs/Qmch3bEohbkzGWjbWRJSoCXY1DPqVgjKCWfLaAmB8VTJrE"
+			]
+		}
+	},
+	"version": 1
+}

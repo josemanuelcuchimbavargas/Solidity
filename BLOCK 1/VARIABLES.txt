@@ -1,0 +1,14 @@
+** VARIABLES ENTERAS
+
+---- Enteras sin signo (enteros positivos)
+uint <nombre_variable>; 
+
+---- Enteras con singo (enteros negativos o positivos)
+int <nombre_variable>;
+
+---- Tambien se puede especificar el numero de bits en las variables enteras.
+uint<x> <nombre_variable>;
+int<x> <nombre_variable>;
+
+<x>  varia de 8 a 256 en múltiplos de 8.
+

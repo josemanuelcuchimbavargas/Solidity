@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Estado",
+				"outputs": [
+					{
+						"internalType": "enum Enums.estado",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "apagar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "encender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_k",
+						"type": "uint256"
+					}
+				],
+				"name": "fijarEstado",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BLOCK 1/enums.sol": "Enums"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BLOCK 1/enums.sol": {
+			"keccak256": "0xfb9d7da8b224bd549b18d5992c5cac8a2cef811fe0c822e6907298dd10c58536",
+			"license": "JMCV",
+			"urls": [
+				"bzz-raw://819fbf4721d3336dfac902b8fa8292ba79e6c2dab22479418a5fe28e958df42a",
+				"dweb:/ipfs/QmXfvMXWpu2Ldv9Bvcqh5FNbszq1fnaUbmSThwTs1CVaFk"
+			]
+		}
+	},
+	"version": 1
+}
